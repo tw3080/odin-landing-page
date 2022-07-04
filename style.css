@@ -108,3 +108,35 @@ p {
 .card-description {
     color: #5e5e5e;
 }
+
+.quote {
+    background-color: #e5e7eb;
+}
+
+.quote-wrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 824px;
+    margin: 0 auto;
+    padding: 128px 0 100px 0;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    margin-bottom: 8px;
+}
+
+.quote-citation {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: right;
+    margin: 0;
+    padding-right: 48px;
+}
+
+.quote-text,
+.quote-citation {
+    color: #1f2937;
+}
