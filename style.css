@@ -13,20 +13,20 @@ a {
     font-size: 18px;
 }
 
-.header {
+header {
     background-color: #1f2937;
 }
 
-.section {
-    max-width: 1048px;
-    margin: 0 auto;
-}
-
-.navbar {
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 64px;
+}
+
+.content-wrapper {
+    max-width: 1048px;
+    margin: 0 auto;
 }
 
 .logo {
